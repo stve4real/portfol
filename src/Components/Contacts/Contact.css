@@ -1,0 +1,22 @@
+:root{
+    --cyan: #000fff;
+    --gray: rgb(173,173,170);
+}
+
+.contact .what{
+    color:white;
+    font-size:20px;
+
+}
+.contact .detail{
+    color:white;
+    font-size: 15px;
+}
+.contact p .text {
+    font-size: 5rem;
+}
+.contact button{
+    padding: 5px;
+    border: 2px solid gray ;
+    border-radius: 5px ;
+}

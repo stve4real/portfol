@@ -1,0 +1,37 @@
+:root{
+    --cyan:#000fff;
+    --gray:rgb(204, 204, 201);
+}
+
+.experience h2 span,
+.experience .tab-content p span{
+    color: var(--cyan);
+    font-size: 14px;
+}
+
+.experience .tab-content h3 a{
+    color: var(--cyan);
+    text-decoration:none;
+
+}
+
+.experience .tab-content p,
+.experience .tab-content > .tab-pane > span{
+    color: var(--gray);
+    font-size: 16px;
+}
+
+.experience .nav .nav-link{
+    color: var(--gray);
+}
+    .experience .nav .nav-link.active {
+    color: var(--cyan);
+    background-color: transparent;
+    border-left: 2px solid var(--cyan);
+}
+.experience .nav .nav-link .active:hover{
+    background-color: rgba(rgb(139, 85, 85), green, blue, alpha);
+    
+
+
+}

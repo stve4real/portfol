@@ -1,0 +1,106 @@
+:root{
+    --cyan: #000fff;
+    --gray: rgb(173,173,170)
+}
+.home{
+    display: flow-root;
+}
+.icons-container{
+    position: fixed;
+    bottom: 0px;
+
+}
+.icons-container .icons{
+    list-style-type:none;
+}
+.icons-container .icons li{
+  margin: 5px 0px;
+}
+
+.icons-container .icons::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin-top:120px;
+    background-color: var(--gray);
+}
+.email-container{
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+
+}
+.email-container p{
+    color: var(--gray);
+   writing-mode: vertical-lr;
+
+}
+.email-container p::after{
+    content:"";
+    display: block;
+     width: 1px;
+    height: 90px;
+    margin-top:10px;
+    background-color: var(--gray);
+    margin-right: 2px;
+
+}
+
+main{
+    margin-top: 70px;
+    margin-left: 120px;
+    color: var(--gray);
+    padding: 3rem clamp(1.5rem, 10vw, 10rem);
+    
+}
+
+main .hi_name {
+    font-size: 10px;
+    color: var(--gray);
+    font-size: 5vw;
+    gap: 20px;
+}
+main .h1{
+    font-size: 3vw;
+    margin-top: 30px;
+}
+
+main h2{
+    font-size: 15px;
+    color: var(--gray);
+    font-size: 3vw;
+}
+
+
+main .details{
+  color: var(--gray); 
+  font-size:1.5em;
+}
+
+main button{
+    border: 3px solid var(--cyan);
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 0px;
+    color: var(--gray);
+}
+
+main button:hover{
+    background-color: rgba(125, 189,192, 0.5) !important;
+    color: var(--cyan0);
+}
+
+@media only screen and (max-width: 800px) {
+    .icons-container,.email-container{
+        display: none;
+    }
+    
+      main{
+    margin-top: -80px;
+    margin-left: 30px;
+    margin-left: 30px;
+    
+}
+    
+}
